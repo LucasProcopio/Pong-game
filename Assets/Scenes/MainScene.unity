@@ -490,6 +490,7 @@ GameObject:
   - component: {fileID: 165211275}
   - component: {fileID: 165211277}
   - component: {fileID: 165211276}
+  - component: {fileID: 165211278}
   m_Layer: 5
   m_Name: PlayerScore
   m_TagString: Untagged
@@ -513,7 +514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 98.3011, y: 29.531616}
+  m_AnchoredPosition: {x: 98.30127, y: 29.531738}
   m_SizeDelta: {x: 196.6022, y: 59.063232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165211276
@@ -557,6 +558,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165211274}
   m_CullTransparentMesh: 0
+--- !u!114 &165211278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165211274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb5fc70e385649a9a34e1dc360e0b3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &257718470
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,6 +660,7 @@ GameObject:
   - component: {fileID: 260698570}
   - component: {fileID: 260698573}
   - component: {fileID: 260698572}
+  - component: {fileID: 260698571}
   m_Layer: 5
   m_Name: EnemyScore
   m_TagString: Untagged
@@ -670,9 +684,21 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -96.94121, y: -29.533203}
+  m_AnchoredPosition: {x: -96.94141, y: -29.533203}
   m_SizeDelta: {x: 193.88242, y: 59.066467}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &260698571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260698569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504548be23b8643e3b4303591f62c8f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &260698572
 MonoBehaviour:
   m_ObjectHideFlags: 0

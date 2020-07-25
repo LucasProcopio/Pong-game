@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour
 {
@@ -47,6 +47,13 @@ public class Ball : MonoBehaviour
     {
       SetInitialPosition();
       SetInitialMovement();
+    }
+
+    // Change game scene 
+    if (Input.GetKey(KeyCode.Escape))
+    {
+
+      SceneManager.LoadScene("MainMenu");
     }
 
     if (moveX == -1 && moveY == 0 || moveX == 1 && moveY == 0)
